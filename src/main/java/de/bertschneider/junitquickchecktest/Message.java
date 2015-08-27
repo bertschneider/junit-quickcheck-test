@@ -8,7 +8,7 @@ public class Message {
 	private String code;
 	private List<Data> data;
 	
-	public Message(String id, String code,	 List<Data> data) {
+	public Message(String id, String code, List<Data> data) {
 		this.id = id;
 		this.code = code;
 		this.data = data;

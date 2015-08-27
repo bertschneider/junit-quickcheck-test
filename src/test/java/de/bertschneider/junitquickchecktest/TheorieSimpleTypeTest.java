@@ -31,7 +31,7 @@ public class TheorieSimpleTypeTest {
 	public void concat_produces_extended_string(
 			@ForAll String someString,
 			@ForAll String otherString) {
-//		System.out.println(someString + " - " + b);
+//		System.out.println(someString + " - " + otherString);
 		assertThat((someString + otherString).length(), is(someString.length() + otherString.length()));
 	}
 	
